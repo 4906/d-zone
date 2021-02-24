@@ -1,8 +1,9 @@
 import * as PIXI from 'pixi.js-legacy'
 
 export const RENDER_SETTINGS = {
-	resolution: 1,
+	resolution: window.devicePixelRatio,
 	scaleMode: PIXI.SCALE_MODES.NEAREST,
+	autoDensity: true,
 }
 
 export const BACKGROUND_COLOR = 0xffffff as const

@@ -12,6 +12,7 @@ import {
 // Global PIXI settings
 PIXI.settings.RESOLUTION = RENDER_SETTINGS.resolution
 PIXI.settings.SCALE_MODE = RENDER_SETTINGS.scaleMode
+PIXI.settings.RENDER_OPTIONS.autoDensity = RENDER_SETTINGS.autoDensity
 
 /** A manager for the PIXI renderer and related plugins. */
 export default class Renderer {
