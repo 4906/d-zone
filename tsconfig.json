@@ -1,10 +1,5 @@
 {
 	"compilerOptions": {
-		"target": "es6",
-		"module": "esnext",
-
-		"lib": ["dom", "dom.iterable", "esnext", "webworker"],
-
 		"strict": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
@@ -18,32 +13,10 @@
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true,
 
-		"allowJs": true,
-		"noEmit": true,
 		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"jsx": "preserve",
 
-		"baseUrl": ".",
-		"paths": {
-			"root/*": ["./*"],
-			"web/*": ["./src/*"]
-		},
-
-		"typeRoots": [
-			"./typings/vendor", "./node_modules/@types"]
+		"typeRoots": ["./typings/vendor", "./node_modules/@types"]
 	},
-
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.json"],
-	"exclude": [
-		"node_modules",
-		".next",
-		"out",
-		"next.config.js",
-		"dist",
-		"docs",
-		"typings/vendor"
-	],
 
 	"typedocOptions": {
 		"mode": "modules",
