@@ -4,6 +4,7 @@
   "autoPopulate": true,
   "servers": [{
     "id": "395269621143306250",
-    "default": true
+    "default": true,
+    "hideOffline": true
   }]
 }
