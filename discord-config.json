@@ -2,6 +2,8 @@
   "url": "https://github.com/vegeta897/d-zone",
   "infoCommand": "!d-zone",
   "autoPopulate": true,
-  "servers": [
-  ]
+  "servers": [{
+    "id": "395269621143306250",
+    "default": true
+  }]
 }
